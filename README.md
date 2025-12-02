@@ -1,8 +1,6 @@
-# Towards Efficient 3D Reconstruction from UAV Imagery: Evaluation of OpenCV Feature Detection, Description and Matching Combinations
+# A Novel Composite Unsupervised Efficiency Score for Objective Performance Evaluation of Feature Matching Pipelines in UAV Photogrammetry
 
-Author: Abbas Elmas  
-PhD Thesis - Computer Vision and Photogrammetry  
-Supported by: TÜBİTAK BİDEB 2211-A National PhD Scholarship Program
+Author: A.Abbas ELMAS, Barış ATA
 
 This repository contains experimental framework, datasets, evaluation outputs, and interactive visualizations for comprehensive evaluation of OpenCV feature detection, description, and matching algorithm combinations for UAV-based 3D reconstruction.
 
@@ -289,7 +287,7 @@ Interactive JPG and HTML visualizations for 135+ top-performing algorithm combin
 
 | Rank | Descriptor | Mean CUES | Max CUES | Std | Evaluations |
 |------|------------|-----------|----------|-----|-------------|
-| 1 | SIFT | 0.6354 | 0.8092 | 0.0966 | 129 |
+| 1 | SIFT | **0.6354** | 0.8092 | 0.0966 | 129 |
 | 2 | DAISY | 0.6213 | 0.8286 | 0.1089 | 140 |
 | 3 | VGG | 0.6024 | 0.8367 | 0.1216 | 140 |
 | 4 | KAZE | 0.6002 | 0.7259 | 0.1401 | 11 |
@@ -304,7 +302,7 @@ Interactive JPG and HTML visualizations for 135+ top-performing algorithm combin
 
 | Rank | Combination | Mean CUES | Max CUES |
 |------|-------------|-----------|----------|
-| 1 | AKAZE-SIFT | 0.6947 | 0.8092 |
+| 1 | AKAZE-SIFT | **0.6947** | 0.8092 |
 | 2 | AGAST-SIFT | 0.6801 | 0.7507 |
 | 3 | STAR-SIFT | 0.6787 | 0.7719 |
 | 4 | ORB-DAISY | 0.6785 | **0.8286** |
